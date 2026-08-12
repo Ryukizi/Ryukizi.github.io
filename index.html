@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-BR" data-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,12 +14,38 @@
 </head>
 <body>
     <header class="header">
+        <nav class="header__nav">
+            <ul class="menu menu--principal">
+                <li class="menu__item">
+                    <a class="menu__link active" href="#home">
+                        <span class="menu__text">Home</span>
+                    </a>
+                </li>
+                            <li class="menu__item">
+                    <a class="menu__link" href="#projetos">
+                        <span class="menu__text">projetos</span>
+                    </a>
+                </li>
+                            <li class="menu__item">
+                    <a class="menu__link" href="#sobre">
+                        <span class="menu__text">Sobre</span>
+                    </a>
+                </li>
+                            <li class="menu__item">
+                    <a class="menu__link" href="#contato">
+                        <span class="menu__text">Contato</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
         <div class="header__brand">
             <img class="brand__logo" src="assets/images/favicon-32x32.png" alt="Logo do Portfólio de Deniel Brandão">
         </div>
-        <i id="toggle-theme" class="bi bi-brightness-high"></i>
+        <div class="header__toggle"> 
+            <i id="toggleTheme" class="bi bi-sun"></i> 
+        </div>
     </header>
-    <nav>
+    <nav class="nav--mobile">
         <ul class="menu menu--mobile">
             <li class="menu__item">
                 <a class="menu__link active" href="#home">
@@ -47,6 +73,53 @@
             </li>
         </ul>
     </nav>
-    <h1>Bem-vindo ao meu Portfólio</h1>
+    <main>
+        <div class="main__content1">
+            <h1><strong>Soluções Criativas &</strong> Desenvolvinmento Web</h1>
+            <p>Deniel Brandão, Volta Redonda-RJ, Desenvolvedor Full Stack.</p>
+            <ul class="menu menu--social">
+                <li>
+                    <a class="menu___link" href="">
+                        <i class="menu__icon bi bi-github"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="class="menu___link"">
+                        <i class="menu__icon bi bi-linkedin"></i>
+                    </a>
+                </li>
+            </ul>
+            <button class="btn btn--primary">
+                <span>Ver Projetos</span>
+                <i class="bi bi-arrow-down-right"></i>
+            </button>
+        </div>
+        <div class="main__content2">
+            <iframe src="https://www.youtube.com/embed/3zVyb4gS4Q4?si=0G56gEM8UN4SeQ5_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </main>
+    <section class="skills">
+        <h2>Conhecimento nas principais tecnologias do mercado</h2>
+        <ul class="skills__list">
+            <li class="skills__item">
+                <img class="skills__logo" src="assets/images/favicon-32x32.png" alt="Logo C#">
+            </li>
+            <li class="skills__item">
+                <img class="skills__logo" src="assets/images/favicon-32x32.png" alt="Logo Css">
+            </li>
+            <li class="skills__item">
+                <img class="skills__logo" src="assets/images/favicon-32x32.png" alt="Logo Java Script">
+            </li>
+            <li class="skills__item">
+                <img class="skills__logo" src="assets/images/favicon-32x32.png" alt="Logo bootstrap">
+            </li>
+        </ul>
+    </section>
+    <footer>
+        <p>
+            @ 2026. Todos os Direitos Reservados. Deniel Brandão. Desenvolvido por <a href="https://github.com/Ryukizi/Ryukizi.github.io">EA</a>
+        </p>
+    </footer>
+    <script src="assets/js/scripts.js"></script>
 </body>
 </html>
