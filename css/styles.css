@@ -41,7 +41,6 @@ html[data-theme='light']  .skills__logo{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    vertical-align: baseline;
     color: var(--primary-color)
 }
 
@@ -49,7 +48,7 @@ html[data-theme='light']  .skills__logo{
     position: fixed;
     top: 0;
     left: 0;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     background-color: #000000;
     z-index: 99999;
@@ -185,7 +184,7 @@ p {
 }
 
 .menu--mobile{
-    width: 100vw;
+    width: 100%;
     position: fixed;
     bottom: 0;
     justify-content: space-between;
@@ -256,14 +255,11 @@ main, .about__content1, .about__content2 {
 .spiral-scroll-wrapper {
     height: 720vh;
     position: relative;
-    padding: 0rem 0rem 0rem 1rem;
-    right: 10%;
 }
 
 .spiral__container {
     position: sticky;
-    top: 0;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -290,7 +286,6 @@ main, .about__content1, .about__content2 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 0rem 0rem 0rem 4rem;
     gap: 3rem;
     
     background: transparent !important;
@@ -834,9 +829,7 @@ footer p {
         align-items: flex-start;
     }
 
-    .spiral-scroll-wrapper {
-        right: 5%;
-    }
+
 
     .skills {
         padding: 6.25rem 6rem 2rem 6rem;
