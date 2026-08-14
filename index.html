@@ -10,9 +10,30 @@
 
     <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+    <div id="intro-overlay" class="intro-overlay">
+        <div class="intro__wrapper">
+            <span class="letter">D</span>
+            <span id="letra-A" class="letter">A</span> 
+        
+            <span class="letter">N</span>
+            <span class="letter">I</span>
+            <span class="letter">E</span>
+            <span class="letter">L</span>
+        
+            <span class="space">&nbsp;</span> <span class="letter">B</span>
+            <span class="letter">R</span>
+            <span class="letter">A</span>
+            <span class="letter">N</span>
+            <span class="letter">D</span>
+            <span class="letter">Ã</span>
+            <span class="letter">O</span>
+
+            <span id="letra-E" class="intro__letter_e">E</span>
+        </div>
+    </div>
     <header class="header">
         <nav class="header__nav">
             <ul class="menu menu--principal">
@@ -74,250 +95,235 @@
         </ul>
     </nav>
     <main>
-        <div class="main__content1">
-            <h1><strong>Soluções Criativas &</strong> Desenvolvinmento Web</h1>
+        <div id="home" class="main__content1">
+            <h1><strong>Soluções Criativas &</strong> Desenvolvimento Web</h1>
             <p>Deniel Brandão, Volta Redonda-RJ, Desenvolvedor Full Stack.</p>
             <ul class="menu menu--social">
                 <li>
-                    <a class="menu___link" href="https://github.com/Ryukizi">
+                    <a class="menu__link" href="https://github.com/Ryukizi" target="_blank">
                         <i class="menu__icon bi bi-github"></i>
                     </a>
                 </li>
                 <li>
-                    <a href="class="menu___link href="https://www.linkedin.com/in/deniel-leal/">
+                    <a class="menu__link" href="https://www.linkedin.com/in/deniel-leal/" target="_blank">
                         <i class="menu__icon bi bi-linkedin"></i>
                     </a>
                 </li>
             </ul>
-            <button id="btnProjetos" class="btn btn--primary">
+            <a href="#projetos" id="btnProjetos" class="btn btn--primary">
                 <span>Ver Projetos</span>
                 <i class="bi bi-arrow-down-right"></i>
-            </button>
-        </div>
-        <div class="main__content2">
-            <iframe src="https://www.youtube.com/embed/3zVyb4gS4Q4?si=0G56gEM8UN4SeQ5_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
-    </main>
-    <section class="skills">
-        <h2>Conhecimento nas principais tecnologias do mercado</h2>
-        <ul class="skills__list">
-            <li class="skills__item">
-                <img class="skills__logo" src="assets/images/favicon-32x32.png" alt="Logo C#">
-            </li>
-            <li class="skills__item">
-                <img class="skills__logo" src="assets/images/favicon-32x32.png" alt="Logo Css">
-            </li>
-            <li class="skills__item">
-                <img class="skills__logo" src="assets/images/favicon-32x32.png" alt="Logo Java Script">
-            </li>
-            <li class="skills__item">
-                <img class="skills__logo" src="assets/images/favicon-32x32.png" alt="Logo bootstrap">
-            </li>
-        </ul>
-    </section>
-    <section id="projetos" class="projects">
-        <h2>Projetos</h2>
-        <div class="projects__container">
-            <div class="projects__cards">
-                <img class="card__cover" src="assets/images/1.jpg" alt="Cover Josi's Box">
-                <div class="card__body">
-                    <h3 class="card__title">Josi's Box Ecommerce</h3>
-                    <p class="card__description">Ecommecer de livros</p>
-                    <ul class="card__list">
-                        <li class="card__item">listagem de favoritos:</li>
-                        <li class="card__item">listagem de favoritos:</li>
-                        <li class=card__item>listagem de favoritos:</li>
-                    </ul>
-                    <ul class="skills__list">
-                        <li class="skills__item">
-                            <img class="skills__logo" src="assets/images/favicon-32x32.png" alt="Logo C#">
-                        </li>
-                        <li class="skills__item">
-                            <img class="skills__logo" src="assets/images/favicon-32x32.png" alt="Logo Css">
-                        </li>
-                        <li class="skills__item">
-                            <img class="skills__logo" src="assets/images/favicon-32x32.png" alt="Logo Java Script">
-                        </li>
-                        <li class="skills__item">
-                            <img class="skills__logo" src="assets/images/favicon-32x32.png" alt="Logo bootstrap">
-                        </li>
-                    </ul>
-                    <div class="card__buttons">
-                        <a href="https://github.com/Ryukizi" target="_blank">
-                            <button class="btn btn--primary">
-                                <span>Prévia</span>
-                                <i class="bi bi-arrow-up-right"></i>
-                            </button>
-                        </a>
-                        <a href="https://github.com/Ryukizi" target="_blank"></a>
-                            <button class="btn">
-                                <span>Repositório</span>
-                            </button>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="projects__cards card--reverse">
-                <img class="card__cover" src="assets/images/1.jpg" alt="Cover Josi's Box">
-                <div class="card__body">
-                    <h3 class="card__title">Josi's Box Ecommerce</h3>
-                    <p class="card__description">Ecommecer de livros</p>
-                    <ul class="card__list">
-                        <li class="card__item">listagem de favoritos:</li>
-                        <li class="card__item">listagem de favoritos:</li>
-                        <li class="card__item">listagem de favoritos:</li>
-                    </ul>
-                    <ul class="skills__list">
-                        <li class="skills__item">
-                            <img class="skills__logo" src="assets/images/favicon-32x32.png" alt="Logo C#">
-                        </li>
-                        <li class="skills__item">
-                            <img class="skills__logo" src="assets/images/favicon-32x32.png" alt="Logo Css">
-                        </li>
-                        <li class="skills__item">
-                            <img class="skills__logo" src="assets/images/favicon-32x32.png" alt="Logo Java Script">
-                        </li>
-                        <li class="skills__item">
-                            <img class="skills__logo" src="assets/images/favicon-32x32.png" alt="Logo bootstrap">
-                        </li>
-                    </ul>
-                    <div class="card__buttons">
-                        <a href="https://github.com/Ryukizi" target="_blank">
-                            <button class="btn btn--primary">
-                                <span>Prévia</span>
-                                <i class="bi bi-arrow-up-right"></i>
-                            </button>
-                        </a>
-                        <a href="https://github.com/Ryukizi" target="_blank">
-                            <button class="btn">
-                                <span>Repositório</span>
-                            </button>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <a href="https://github.com/Ryukizi" target="_blank">
-                <button class="btn btn--primary">
-                    <span >Todos Projetos</span>
-                </button>
             </a>
         </div>
+    </main>
+    <section class="spiral-scroll-wrapper">
+    <div id="spiral" class="spiral__container">
+        <div class="spiral__words"></div>
+        <section class="skills">
+            <h2>Conhecimento nas principais tecnologias do mercado</h2>
+            <ul class="skills__list">
+                <li class="skills__item">
+                    <img class="skills__logo" src="assets/images/favicon-32x32.png" alt="Logo C#">
+                </li>
+                <li class="skills__item">
+                    <img class="skills__logo" src="assets/images/favicon-32x32.png" alt="Logo Css">
+                </li>
+                <li class="skills__item">
+                    <img class="skills__logo" src="assets/images/favicon-32x32.png" alt="Logo JavaScript">
+                </li>
+                <li class="skills__item">
+                    <img class="skills__logo" src="assets/images/favicon-32x32.png" alt="Logo Bootstrap">
+                </li>
+            </ul>
+        </section>
+    </div>
+    </section>
+
+    <section id="projetos" class="projects">
+    <div class="projects__sticky">
+        <h2 class="projects__title-bg">PROJETOS</h2>
+        
+        <div class="projects__slider">
+            
+            <a href="https://github.com/Ryukizi" target="_blank" class="project__card">
+                <div class="project__image-wrapper">
+                    <img class="project__img" src="assets/images/1.jpg" alt="Cover Josi's Box">
+                    <div class="project__overlay">
+                        <span>Ver no GitHub <i class="bi bi-github"></i></span>
+                    </div>
+                </div>
+                <div class="project__info">
+                    <h3>Josi's Box Ecommerce</h3>
+                    <p>Ecommerce de livros completo com painel de favoritos.</p>
+                    <ul class="card__techs">
+                        <li>C#</li>
+                        <li>JS</li>
+                        <li>Bootstrap</li>
+                    </ul>
+                </div>
+            </a>
+
+            <a href="https://github.com/Ryukizi" target="_blank" class="project__card">
+                <div class="project__image-wrapper">
+                    <img class="project__img" src="assets/images/1.jpg" alt="Cover Josi's Box">
+                    <div class="project__overlay">
+                        <span>Ver no GitHub <i class="bi bi-github"></i></span>
+                    </div>
+                </div>
+                <div class="project__info">
+                    <h3>Josi's Box Ecommerce v2</h3>
+                    <p>Plataforma para gerenciamento de biblioteca e vendas.</p>
+                    <ul class="card__techs">
+                        <li>C#</li>
+                        <li>CSS3</li>
+                        <li>Supabase</li>
+                    </ul>
+                </div>
+            </a>
+
+            <div class="project__card project__card--more">
+                <div class="more__content">
+                    <h3>Quer ver mais projetos?</h3>
+                    <p>Confira todos os meus repositórios públicos no GitHub.</p>
+                    <a href="https://github.com/Ryukizi" target="_blank" class="btn btn--primary">
+                        <span>Ir para o GitHub</span>
+                        <i class="bi bi-arrow-up-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
     </section>
     <section id="sobre" class="about">
         <div class="about__content1">
-            <img class="about__photo" src="assets/images/1.jpg" alt="">
+            <div class="about__photo-wrapper">
+                <img class="about__photo" src="assets/images/1.jpg" alt="Foto de perfil de Deniel Brandão">
+            </div>
+
             <div class="about__description">
                 <h2>Sobre mim</h2>
-                <p>Deniel Brandão. Atualmente estou cursando o bootcamp de 
-                    css, html e JS, tendo experiencia previa com C# e outras 
-                    linguagens, além de ter trabalhado com desenvolvimento de games
-                    tendo firme conhecimento de logica de programação
+                
+                <p class="scramble-text" data-text="Deniel Brandão. Atualmente cursando Análise e Desenvolvimento de Sistemas. 
+                    Tenho experiência sólida com C#, desenvolvimento web moderno (HTML, CSS, JS) 
+                    e criação de games, focando em lógica de programação e interfaces dinâmicas.">
+                    Deniel Brandão. Atualmente cursando Análise e Desenvolvimento de Sistemas. 
+                    Tenho experiência sólida com C#, desenvolvimento web moderno (HTML, CSS, JS) 
+                    e criação de games, focando em lógica de programação e interfaces dinâmicas.
                 </p>
+
                 <div class="about__icons">
                     <i class="bi bi-translate"></i>
                     <span>Inglês: Intermediário</span>
                 </div>
+
                 <div class="description__buttons">
-                    <a href="https://www.linkedin.com/in/deniel-leal/" target="_blank">
-                        <button class="btn btn--primary">
-                            <span>Conecte-se Comigo</span>
-                            <i class="bi bi-arrow-up-right"></i>
-                        </button>
+                    <a href="https://www.linkedin.com/in/deniel-leal/" target="_blank" class="btn btn--primary contact-animate">
+                        <span>Conecte-se Comigo</span>
+                        <i class="bi bi-arrow-up-right"></i>
                     </a>
-                    <a href="assets/documents/CV Programação.pdf" download>
-                        <button class="btn">
-                            <span>Currículo</span>
-                        </button>
+                    <a href="assets/documents/CV Programação.pdf" download class="btn">
+                        <span>Currículo</span>
                     </a>
                 </div>
             </div>
         </div>
+
         <div class="about__content2">
             <div class="col1">
                 <div class="row1">
                     <h3>Formação</h3>
-                    <h4>Analise e Desenvolvimento de Sistemas</h4>
+                    <h4 class="scramble-text"class="scramble-text" data-text="Análise e Desenvolvimento de Sistemas">Análise e Desenvolvimento de Sistemas</h4>
                     <div class="about__icons">
                         <i class="bi bi-bank"></i>
-                        <span>Universidade Estácio de Sá</span>
+                        <span class="scramble-text" data-text="Universidade Estácio de Sá">Universidade Estácio de Sá</span>
                     </div>
-                    <span>Jul 2026 - Atualmente</span>
+                    <span class="about__date">Jul 2026 - Cursando</span>
                 </div>
+
                 <div class="row2">
                     <h3>Experiências</h3>
-                    <h4>Jovem Aprendiz de Auxiliar Administrativo</h4>
-                    <span> Fadel Transporte e Logistica</span>
-                    <span>2026</span>
+                    <h4 class="scramble-text" data-text="Jovem Aprendiz de Auxiliar Administrativo">Jovem Aprendiz de Auxiliar Administrativo</h4>
+                    <span class="about__company">Fadel Transporte e Logística</span>
+                    <span class="about__date">2026</span>
                     <ul class="about__list">
-                        <li class="about__item">Documentação de planilhas</li>
-                        <li class="about__item">Criação de planilhas dinamicas</li>
-                        <li class="about__item">Excel</li>
+                        <li class="about__item">Documentação e controle de processos</li>
+                        <li class="about__item">Criação de planilhas dinâmicas em Excel</li>
                     </ul>
                 </div>
             </div>
+
             <div class="col2">
-                    <h3>Cursos</h3>
-                    <div id="accordion">
-                        <div class="accordion__item">
-                            <button class="accordion__header start">
-                                <span>Versiasad</span>
-                                <i class="bi bi-caret-down-fill"></i>
-                            </button>
-                            <div class="accordion__body">
-                                <p>Digital inovition</p>
-                            </div>
-                        </div>
-                        <div class="accordion__item">
-                            <button class="accordion__header">
-                                <span>GFDG</span>
-                                    <i class="bi bi-caret-down-fill"></i>
-                            </button>
-                            <div class="accordion__body">
-                                <p>Digital inovition</p>
-                            </div>
-                        </div>
-                        <div class="accordion__item">
-                            <button class="accordion__header end">
-                                <span>ASDASd</span>
-                                    <i class="bi bi-caret-down-fill"></i>
-                            </button>
-                            <div class="accordion__body end">
-                                <p>Digital inovition</p>
-                            </div>
+                <h3>Cursos & Certificações</h3>
+                <div id="accordion">
+                    <div class="accordion__item">
+                        <button class="accordion__header start">
+                            <span>Versionamento de Código com Git/GitHub</span>
+                            <i class="bi bi-caret-down-fill"></i>
+                        </button>
+                        <div class="accordion__body">
+                            <p>Digital Innovation One (DIO)</p>
                         </div>
                     </div>
+
+                    <div class="accordion__item">
+                        <button class="accordion__header">
+                            <span>Desenvolvimento C# e .NET</span>
+                            <i class="bi bi-caret-down-fill"></i>
+                        </button>
+                        <div class="accordion__body">
+                            <p>Digital Innovation One (DIO)</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion__item">
+                        <button class="accordion__header end">
+                            <span>Lógica de Programação e Algoritmos</span>
+                            <i class="bi bi-caret-down-fill"></i>
+                        </button>
+                        <div class="accordion__body end">
+                            <p>Digital Innovation One (DIO)</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
     <section id="contato" class="contact">
-        <h2>Contate-me</h2>
-        <p>Estou disponível para serviços e novas conexões. Contate-me via
-            e-mail e conecte-se comigo através das minhas redes sociais.
-        </p>
-        <ul class="menu menu--social">
-            <li>
-                <a class="menu__link" href="https://github.com/Ryukizi" target="_blank">
-                    <i class="menu__icon bi bi-github"></i>
-                    <span>Github</span>
-                </a>
-            </li>
-            <li>
-                <a class="menu__link" href="https://www.linkedin.com/in/deniel-leal/" target="_blank">
-                    <i class="menu__icon bi bi-linkedin"></i>
-                    <span>LinkedIn</span>
-                </a>
-            </li>
-        </ul>
-        <a class="btn btn--primary" href="mailto:niellealbrandao@gmail.com">
-            <i class="bi bi-envelope"></i>
-            <span>niellealbrandao@gmail.com</span>
-        </a>
+    <h2><span id="typed-title"></span><span class="cursor">|</span></h2>
+
+    <p class="reveal-text">
+        Estou disponível para serviços e novas conexões. Contate-me via e-mail e conecte-se comigo através das minhas redes sociais.
+    </p>
+
+    <ul class="menu menu--social">
+        <li>
+            <a class="menu__link" href="https://github.com/Ryukizi" target="_blank">
+                <i class="menu__icon bi bi-github"></i>
+                <span>Github</span>
+            </a>
+        </li>
+        <li>
+            <a class="menu__link" href="https://www.linkedin.com/in/deniel-leal/" target="_blank">
+                <i class="menu__icon bi bi-linkedin"></i>
+                <span>LinkedIn</span>
+            </a>
+        </li>
+    </ul>
+
+    <a class="btn btn--primary" href="mailto:niellealbrandao@gmail.com">
+        <i class="bi bi-envelope"></i>
+        <span>niellealbrandao@gmail.com</span>
+    </a>
     </section>
     <footer>
         <p>
             @ 2026. Todos os Direitos Reservados. Deniel Brandão. Desenvolvido por <a href="https://github.com/Ryukizi/Ryukizi.github.io">EA</a>
         </p>
     </footer>
-    <script src="assets/js/scripts.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/TextPlugin.min.js"></script>
+    <script type="module" src="./js/main.js"></script>
 </body>
 </html>
