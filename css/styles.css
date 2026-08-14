@@ -48,7 +48,7 @@ html[data-theme='light']  .skills__logo{
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     background-color: #000000;
     z-index: 99999;
@@ -184,7 +184,7 @@ p {
 }
 
 .menu--mobile{
-    width: 100%;
+    width: 100vw;
     position: fixed;
     bottom: 0;
     justify-content: space-between;
