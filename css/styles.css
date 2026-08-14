@@ -91,8 +91,8 @@ position: relative;
 
 
 body {
-    max-width: 100%;
-    height: 100vh;
+    width: 100%;
+    min-height: 100vh;
     background-color: var(--primary-bg-color);
     font-family: 'Inter', Courier, monospace;
     overflow-x: hidden;
@@ -289,7 +289,7 @@ main, .about__content1, .about__content2 {
     align-items: center;
     justify-content: center;
     gap: 3rem;
-    
+    padding: 0rem 1rem 0rem 1rem;
     background: transparent !important;
     border: none !important;
     box-shadow: none !important;
@@ -614,7 +614,7 @@ position: relative;
 }
 
 .about__description {
-    padding-left: 1rem;
+    padding: 0rem 1rem;
 }
 
 .about__description h2{
@@ -629,10 +629,8 @@ position: relative;
 }
 
 .description__buttons{
-    width: 90%;
-    display: inline-flex;
+    display:flex;
     align-items: center;
-    gap: 2rem;
 }
 
 .about__content2 .col1 .row1,
@@ -726,7 +724,7 @@ position: relative;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 3rem 2rem;
+    padding: 0rem 2rem;
 }
 
 .reveal-text {
@@ -873,6 +871,9 @@ footer p {
         padding: 0rem 4rem 4rem 4rem;
     }
 
+    .contact {
+        padding: 2rem 2rem;
+    }
 
     .about__content1, .about__content2 {
         display: grid;
