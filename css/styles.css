@@ -41,6 +41,7 @@ html[data-theme='light']  .skills__logo{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    vertical-align: baseline;
     color: var(--primary-color)
 }
 
@@ -184,7 +185,7 @@ p {
 }
 
 .menu--mobile{
-    width: 100vw;
+    width: 100%;
     position: fixed;
     bottom: 0;
     justify-content: space-between;
@@ -259,6 +260,7 @@ main, .about__content1, .about__content2 {
 
 .spiral__container {
     position: sticky;
+    top: 0;
     width: 100%;
     height: 100vh;
     display: flex;
@@ -324,7 +326,7 @@ main, .about__content1, .about__content2 {
     justify-content: center;
     width: 80px;
     height: 80px;
-    border-radius: 50%; /* Bolinhas orgânicas minimalistas */
+    border-radius: 50%;
     background: rgba(255, 255, 255, 0.03);
     border: 1px solid rgba(255, 255, 255, 0.08);
     backdrop-filter: blur(10px);
@@ -461,7 +463,6 @@ main, .about__content1, .about__content2 {
     color: var(--primary-color);
 }
 
-/* Card Final "Ver Mais" */
 .project__card--more {
     justify-content: center;
     align-items: center;
@@ -593,7 +594,6 @@ position: relative;
     object-fit: cover;
 }
 
-/* Animação do Desfoque Gaussiano no Texto */
 .scramble-text {
     filter: blur(8px);
     opacity: 0;
@@ -731,16 +731,15 @@ position: relative;
 
 .reveal-text {
     display: inline-block;
-    clip-path: polygon(0 0, 0 0, 0 100%, 0 100%); /* Esconde o texto inicialmente */
+    clip-path: polygon(0 0, 0 0, 0 100%, 0 100%);
     will-change: clip-path;
 }
 
-/* Cursor Piscante */
 .cursor {
     display: inline-block;
     margin-left: 3px;
     font-weight: 300;
-    color: #00f0ff; /* Cor do cursor - mude se quiser */
+    color: #00f0ff;
     animation: blink 0.8s infinite;
 }
 
