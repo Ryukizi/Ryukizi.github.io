@@ -1,0 +1,25 @@
+@import url("./base/variables.css");
+@import url("./base/reset.css");
+@import url("./base/global.css");
+
+@import url("./components/header.css");
+@import url("./components/menu.css");
+@import url("./components/buttons.css");
+
+@import url("./sections/intro.css");
+@import url("./sections/home.css");
+@import url("./sections/skills.css");
+@import url("./sections/project.css");
+@import url("./sections/about.css");
+@import url("./sections/contact.css");
+@import url("./sections/footer.css");
+
+@import url("./responsive/responsive.css");
+
+html[data-theme='light'] .brand__logo {
+    filter: invert(1);
+}
+
+html[data-theme='light']  .skills__logo{
+    filter:invert(80%)
+}

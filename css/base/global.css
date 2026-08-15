@@ -1,0 +1,54 @@
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: var(--primary-bg-color);
+    font-family: 'Inter', Courier, monospace;
+    overflow-x: hidden;
+}
+
+main, .about__content1, .about__content2 {
+    padding: 2.5rem 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+a:hover {
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+i {
+    color: var(--icon-color);
+}
+
+b {
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 200;
+}
+
+
+h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+h1, h2, h3 {
+    font-family: 'League Spartan', Arial, sans-serif;
+    text-transform: uppercase;
+    color: (var(--title-color));
+    font-weight: 200;
+}
+
+p {
+    font-size: 1.25rem;
+    text-align: left;
+    color: var(--text-color)
+}

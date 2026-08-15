@@ -1,0 +1,43 @@
+.intro-overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #000000;
+    z-index: 99999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.intro__wrapper {
+position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: clamp(2rem, 6vw, 4.5rem);
+    font-family: 'League Spartan', sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.intro__wrapper .letter {
+    display: inline-block;
+    line-height: 1;
+}
+
+
+.intro__wrapper .space {
+    width: 0.4em;
+}
+
+.intro__letter_e {
+    position: absolute;
+    top: 0;
+    left: 0; /* A posição X será controlada 100% pelo GSAP */
+    opacity: 0;
+    pointer-events: none;
+    line-height: 1;
+}

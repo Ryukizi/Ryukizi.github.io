@@ -1,0 +1,42 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0rem 2rem 2rem;
+}
+
+.reveal-text {
+    display: inline-block;
+    clip-path: polygon(0 0, 0 0, 0 100%, 0 100%);
+    will-change: clip-path;
+}
+
+.cursor {
+    display: inline-block;
+    margin-left: 3px;
+    font-weight: 300;
+    color: #00f0ff;
+    animation: blink 0.8s infinite;
+}
+
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}
+
+.contact .menu--social {
+    display: flex;
+    gap: 2rem;
+    padding: 2rem 1rem 0rem;
+}
+
+.contact .btn--primary {
+    width: fit-content;
+    font-size: 0.9rem;
+    margin-top: 2rem;
+}
+
+.contact .btn--primary span{
+    text-transform: none;
+}

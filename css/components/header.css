@@ -1,0 +1,38 @@
+
+.header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 2rem 1rem;
+
+    position: relative;
+    z-index: 1000;
+    background: var(--primary-bg-color);
+}
+
+.header__toggle{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header__brand .brand__logo {
+    width: 3.25rem;
+    height: 3.25rem;
+    border-radius: 50%;
+    flex-shrink: 0;
+    background-color: var(--primary-color);
+}
+
+#toggleTheme{
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    cursor: pointer;
+    transition: ease-in-out .4s;
+}
+
+
+.header__nav {
+    display: none;
+}
