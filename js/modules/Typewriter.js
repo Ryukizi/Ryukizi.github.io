@@ -21,13 +21,4 @@ export function initTypewriterContact() {
         duration: 1.8,
         ease: "power1.inOut"
     }, "+=0.1")
-    // 3. Surge com os botões
-    .from(".menu--social, .contact-animate", {
-        opacity: 0,
-        y: 20,
-        duration: 0.5,
-        stagger: 0.15,
-        ease: "power2.out",
-        immediateRender: false
-    }, "+=0.2");
 }
